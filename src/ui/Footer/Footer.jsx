@@ -1,6 +1,5 @@
 import React from 'react'
 import injectSheet from 'react-jss'
-import Section from 'ui/Section'
 import iMeetup from 'media/logos/meetup-swarm.svg'
 import iGithub from 'media/logos/github-octocat.svg'
 import iFacebook from 'media/logos/facebook.svg'

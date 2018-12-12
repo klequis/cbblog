@@ -2,8 +2,8 @@ import React from 'react'
 import { Route, Link } from 'react-router-dom'
 import Footer from 'ui/Footer'
 import Hero from 'ui/Hero'
-import Code from 'ui/Code'
 import posts from 'posts'
+import Text from 'elements/Text'
 
 const titleToHyphenatedText = (title) => {
   const lower = title.toLowerCase()
@@ -12,15 +12,6 @@ const titleToHyphenatedText = (title) => {
   return hyphens
 }
 
-const exampleCode = `
-const Home = () => {
-  const name = 'Carl'
-  return (
-    <h1>Hello World {name}</h1>
-  )
-}
-`.trim()
-
 const Home = () => {
   // console.log('posts', posts)
 
@@ -28,15 +19,15 @@ const Home = () => {
     <div>
       {/* <Breakpoints /> */}
       <Hero />
-      <div>
-        <Code code={exampleCode} />
-      </div>
+      <Text p>
+        some text
+      </Text>
       <div>
         {
           posts.map(p => {
             const path = titleToHyphenatedText(p.title)
             return (
-              <Link to={`/${path}`}>{p.title}</Link>
+              <Link key={path} to={`/${path}`}>{p.title}</Link>
             )
           })
         }

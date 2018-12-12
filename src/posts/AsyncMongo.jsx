@@ -1,8 +1,8 @@
 import React from 'react'
-import Text from 'ui/Text'
+import Text from 'elements/Text'
 
 const AsyncMongo = () => {
-  return <Text variant='h2'>Async MongoDB with Express</Text>
+  return <Text h2>Async MongoDB with Express</Text>
 }
 
 export default AsyncMongo

@@ -1,5 +1,5 @@
 import React from 'react'
-import withThemeProvider from 'ui/withThemeProvider'
+import withThemeProvider from 'theme/withThemeProvider'
 import App from './App'
 
 const AppWrapper = ({ classes }) => {

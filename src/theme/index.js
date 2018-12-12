@@ -1,4 +1,4 @@
-import createBreakpoints from 'ui/createBreakpoints'
+import createBreakpoints from 'theme/createBreakpoints'
 // const breakpoints = createBreakpoints(breakpointsInput)
 const breakpoints = createBreakpoints({})
 const theme = {
