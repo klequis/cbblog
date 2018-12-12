@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="172"
+   height="45.85323"
+   viewBox="0 0 45.508335 12.132"
+   version="1.1"
+   id="svg1671"
+   inkscape:version="0.92.3 (unknown)"
+   sodipodi:docname="aws-sdk-js.svg">
+  <defs
+     id="defs1665" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="59.965392"
+     inkscape:cy="-0.42089816"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     showborder="true"
+     units="px">
+    <sodipodi:guide
+       position="22.886458,11.425772"
+       orientation="1,0"
+       id="guide828"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1668">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-87.136376,-137.47566)">
+    <g
+       id="g881"
+       transform="translate(8.1325801)">
+      <g
+         style="stroke:none;stroke-opacity:1"
+         transform="matrix(0.14248971,0,0,0.26470367,74.137098,87.910325)"
+         id="g1648">
+        <rect
+           style="fill:none;fill-opacity:0;stroke:none;stroke-width:0.32100001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1755-5-1"
+           width="208.32918"
+           height="45.853184"
+           x="91.205986"
+           y="187.23798" />
+      </g>
+      <text
+         id="text2609"
+         y="142.70935"
+         x="98.404869"
+         style="font-style:normal;font-weight:normal;font-size:8.7545948px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#205e00;fill-opacity:1;stroke:none;stroke-width:0.21886487"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.66911745px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#205e00;fill-opacity:1;stroke-width:0.21886487"
+           y="142.70935"
+           x="98.404869"
+           id="tspan2607"
+           sodipodi:role="line">AWS SDK</tspan></text>
+      <g
+         transform="matrix(0.14402598,0,0,0.14402598,85.235928,136.19521)"
+         id="g891">
+        <polygon
+           style="fill:#ffffff"
+           points="81.72,67.95 81.72,31.98 49.98,49.96 49.98,85.98 "
+           id="polygon863" />
+        <polygon
+           style="fill:#ffffff"
+           points="50,85.94 50,49.97 18.3,32.01 18.3,67.94 "
+           id="polygon865" />
+        <polygon
+           style="fill:#ffffff"
+           points="50,14.13 18.5,31.98 50,49.86 81.5,31.98 "
+           id="polygon867" />
+        <polygon
+           style="fill:#ffffff"
+           points="79.64,31.98 50,48.8 79.67,32 "
+           id="polygon869" />
+        <polygon
+           style="fill:#ffffff"
+           points="20.33,32 50,48.8 20.36,31.98 "
+           id="polygon871" />
+        <circle
+           style="fill:#ffffff"
+           r="0"
+           cx="50"
+           cy="48.799999"
+           id="circle873" />
+        <path
+           style="fill:#444444"
+           inkscape:connector-curvature="0"
+           d="M 81.66,30.83 50,12.89 18.34,30.83 l -1,0.59 v 37.12 l 31.7,18 1,0.57 1,-0.57 31.7,-18 V 31.41 Z m -1,36.55 L 51,84.24 V 50.54 L 80.7,33.71 Z M 49,84.24 19.3,67.37 V 33.71 L 49,50.54 Z M 20.36,32 50,15.19 79.64,32 v 0 L 50,48.8 v 0 L 20.33,32 Z"
+           id="path875" />
+        <polygon
+           style="fill:#205e00"
+           points="67.18,59.72 67.18,40.41 50.13,50.07 50.13,69.39 "
+           id="polygon877" />
+        <polygon
+           style="fill:#205e00"
+           points="49.87,69.39 49.87,50.07 32.82,40.41 32.82,59.72 "
+           id="polygon879" />
+        <polygon
+           style="fill:#205e00"
+           points="50,30.52 33,40.15 50,49.81 67,40.15 "
+           id="polygon881" />
+        <polygon
+           style="fill:#96bf3d"
+           points="65.29,40.17 65.27,40.15 50,48.82 50,48.83 "
+           id="polygon883" />
+        <polygon
+           style="fill:#96bf3d"
+           points="34.71,40.17 50,48.83 50,48.82 34.73,40.15 "
+           id="polygon885" />
+        <circle
+           style="fill:#96bf3d"
+           r="0"
+           cx="50"
+           cy="48.82"
+           id="circle887" />
+        <path
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0"
+           d="M 67.3,39 50,29.21 32.7,39 l -1,0.58 v 20.81 l 17.3,9.83 1,0.57 1,-0.57 17.32,-9.83 V 39.58 Z m -1,20.22 -15.3,8.7 V 50.56 L 66.32,41.88 Z M 49,67.92 33.68,59.22 V 41.88 L 49,50.56 Z M 34.73,40.15 50,31.51 65.27,40.16 v 0 L 50,48.82 v 0 L 34.71,40.17 Z"
+           id="path889" />
+      </g>
+      <text
+         id="text2609-8"
+         y="147.03957"
+         x="98.341972"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.67839503px;line-height:1.25;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#205e00;fill-opacity:1;stroke:none;stroke-width:0.17242315"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.67839503px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#205e00;fill-opacity:1;stroke-width:0.17242315"
+           y="147.03957"
+           x="98.341972"
+           id="tspan2607-0"
+           sodipodi:role="line">JavaScript</tspan></text>
+    </g>
+  </g>
+</svg>

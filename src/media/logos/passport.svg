@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="172"
+   height="45.865799"
+   viewBox="0 0 45.508334 12.135326"
+   version="1.1"
+   id="svg1671"
+   inkscape:version="0.92.3 (unknown)"
+   sodipodi:docname="passport.svg">
+  <defs
+     id="defs1665" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="-110.98341"
+     inkscape:cy="40.161497"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     showborder="false"
+     units="px">
+    <sodipodi:guide
+       position="22.886459,28.066399"
+       orientation="1,0"
+       id="guide828"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1668">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-87.135279,-137.474)">
+    <g
+       id="g829"
+       transform="translate(5.8208336)">
+      <g
+         style="fill:none;stroke:none;stroke-opacity:1"
+         transform="matrix(0.16357165,0,0,0.26465614,72.216565,87.920316)"
+         id="g1648">
+        <rect
+           style="fill:none;fill-opacity:0;stroke:none;stroke-width:0.32100001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1755-5-1"
+           width="208.32918"
+           height="45.853184"
+           x="91.205986"
+           y="187.23798" />
+      </g>
+      <text
+         id="text2609"
+         y="145.43663"
+         x="99.861176"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00b9f1;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#00b9f1;fill-opacity:1;stroke-width:0.26458332"
+           y="145.43663"
+           x="99.861176"
+           id="tspan2607"
+           sodipodi:role="line">Passport</tspan></text>
+      <g
+         transform="matrix(0.04062755,0,0,0.04062755,87.92382,138.26837)"
+         id="g2232">
+        <path
+           style="fill:#d6ff00"
+           inkscape:connector-curvature="0"
+           id="path2"
+           d="M 128,0 C 57.28,0 0,57.28 0,128 H 64 C 64,92.672 92.672,64 128,64 Z" />
+        <path
+           style="fill:#34e27a"
+           inkscape:connector-curvature="0"
+           id="path4"
+           d="M 256,128 C 256,57.28 198.72,0 128,0 v 64 c 35.328,0 64,28.672 64,64 z" />
+        <path
+           style="fill:#00b9f1"
+           inkscape:connector-curvature="0"
+           id="path6"
+           d="m 128,256 c 70.72,0 128,-57.28 128,-128 h -64 c 0,35.328 -28.672,64 -64,64 z" />
+      </g>
+    </g>
+  </g>
+</svg>
