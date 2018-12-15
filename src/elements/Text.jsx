@@ -40,7 +40,8 @@ const Text = ({
   children,
   classes,
   className: classNameProp,
-  marginBottom=true,
+  // marginBottom=true,
+  noMargin,
   p,
   h1,
   h2,
@@ -69,9 +70,10 @@ const Text = ({
     classNameProp,
     classes[variantFinal],
     {
-      [classes.marginBottom]: marginBottom,
+      [classes.marginBottom]: !noMargin,
       [classes.left]: align === 'left',
       [classes.center]: align === 'center',
+      [classes.noMargin]: noMargin
     },
   ])
   const Component = getElementForVarient(variantFinal)
@@ -113,6 +115,9 @@ const styles = theme => {
       subtitle1: md.subtitle1,
       subtitle2: md.subtitle2,
       subtitle3: md.subtitle3,
+    },
+    noMargin: {
+      margin: 0,
     },
     left: {
       textAlign: 'left',

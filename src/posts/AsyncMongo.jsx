@@ -2,7 +2,7 @@ import React from 'react'
 import Text from 'elements/Text'
 
 const AsyncMongo = () => {
-  return <Text h2>Async MongoDB with Express</Text>
+  return <Text p>This sample shows how to use async / await with Express and MongoDB</Text>
 }
 
 export default AsyncMongo

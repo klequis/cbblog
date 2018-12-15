@@ -14,7 +14,7 @@ const Welcome = ({ name }) => {
 }
 `.trim()
 
-const Hero = ({ classes, breakpoint }) => {
+const Hero = ({ classes, breakpoint, location }) => {
 
 
   return (
