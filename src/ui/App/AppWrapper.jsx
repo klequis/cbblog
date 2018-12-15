@@ -4,9 +4,7 @@ import App from './App'
 
 const AppWrapper = ({ classes }) => {
   return (
-    <div>
-      <App />
-    </div>
+    <App />
   )
 }
 

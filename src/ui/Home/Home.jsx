@@ -1,20 +1,18 @@
 import React from 'react'
+import injectSheet from 'react-jss'
 import { Route } from 'react-router-dom'
-import Footer from 'ui/Footer'
-import Hero from 'ui/Hero'
 import posts from 'posts'
 import { toHyphenatedText } from 'lib/toHyphenatedText'
 import TOC from 'ui/TOC'
 import Post from 'ui/Post'
 import Button from 'elements/Button'
 
-const Home = () => {
+const Home = ({ classes }) => {
 
   return (
     <div>
-      <Route exact path='/' component={Hero} />
       <Route exact path='/' component={TOC} />
-      <Button>Hi</Button>
+      <Button>Cancel</Button>
       {
         posts.map(p => {
           const path = toHyphenatedText(p.title)
@@ -29,9 +27,13 @@ const Home = () => {
 
         )
       }
-      <Footer />
     </div>
   )
 }
 
-export default Home
+const styles = {
+
+
+}
+
+export default injectSheet(styles)(Home)

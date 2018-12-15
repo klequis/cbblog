@@ -1,19 +1,35 @@
 import React from 'react'
 import injectSheet from 'react-jss'
+import { Route } from 'react-router-dom'
 import Home from 'ui/Home'
+import Footer from 'ui/Footer'
+import Hero from 'ui/Hero'
+
 
 class App extends React.Component {
 
   render() {
+    const { classes } = this.props
+    // console.log('abcde', this.props.classes)
     return (
-      <div>
+      <div id='App-wrapper' className={classes.wrapper}>
+        <Route exact path='/' component={Hero} />
         <Home />
+        <Footer />
       </div>
     )
   }
 }
 
+
 const styles = theme => ({
+  wrapper: {
+    backgroundColor: 'red',
+    minHeight: '100vh',
+    display: 'flex',
+    flexFlow: 'column nowrap',
+    justifyContent: 'space-between',
+  },
   '@global': {
     html: {
       boxSizing: 'border-box',
@@ -39,9 +55,10 @@ const styles = theme => ({
       webkitTextSizeAdjust: 'none',
       msOverflowStyle: 'scrollbar',
       '@media print': {
-      backgroundColor: 'white',
-      minWidth: 320,
+       backgroundColor: 'white',
+        minWidth: 320,
       },
+      letterSpacing: 0.3,
     },
     '*, *::before, *::after': {
       boxSizing: 'inherit',
