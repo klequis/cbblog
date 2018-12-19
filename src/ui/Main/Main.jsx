@@ -7,12 +7,12 @@ import TOC from 'ui/TOC'
 import Post from 'ui/Post'
 import Button from 'elements/Button'
 
-const Home = ({ classes }) => {
+const Main = ({ classes }) => {
 
   return (
     <div>
       <Route exact path='/' component={TOC} />
-      <Button>Cancel</Button>
+      <Button>Ripple</Button>
       {
         posts.map(p => {
           const path = toHyphenatedText(p.title)
@@ -36,4 +36,4 @@ const styles = {
 
 }
 
-export default injectSheet(styles)(Home)
+export default injectSheet(styles)(Main)

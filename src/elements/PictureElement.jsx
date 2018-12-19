@@ -1,7 +1,7 @@
 import React from 'react'
 import injectSheet from 'react-jss'
 import classNames from 'classnames'
-import { breakpoints } from 'ui/breakpoints'
+import { breakpoints } from 'theme/breakpoints'
 import { green } from 'logger'
 
 class PictureElement extends React.Component { // make pure?

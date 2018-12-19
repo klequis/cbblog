@@ -1,3 +1,8 @@
+/*
+    Code in this module is borrowed from Mark Erikson, https://blog.isquaredsoftware.com/
+
+*/
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router } from 'react-router-dom'
@@ -8,11 +13,11 @@ const rootEl = document.getElementById('root')
 // Create a reusable render method that we can call more than once
 let render = () => {
     // Dynamically import our main App component, and render it
-    const App = require('./ui/App').default
+    const Wrapper = require('./Wrapper').default
 
     ReactDOM.render(
       <Router>
-        <App />
+        <Wrapper />
       </Router>,
       rootEl
     )

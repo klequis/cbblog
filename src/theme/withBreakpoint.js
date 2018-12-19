@@ -1,6 +1,6 @@
 import React from 'react'
 import withSizes from 'react-sizes'
-import { getKeyForValue } from 'ui/breakpoints'
+import { getKeyForValue } from './breakpoints'
 
 const withBreakpoints = Component => {
   function WithBreakpoints(props) {

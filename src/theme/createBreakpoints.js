@@ -3,7 +3,7 @@
 
 // Sorted ASC by size. That's important.
 // It can't be configured as it's used statically for propTypes.
-import { breakpointValues, breakpointKeys, getValueForKey } from 'ui/breakpoints'
+import { breakpointValues, breakpointKeys, getValueForKey } from './breakpoints'
 import { pink } from 'logger'
 
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import withThemeProvider from 'theme/withThemeProvider'
 import App from './App'
 
 const AppWrapper = ({ classes }) => {
@@ -8,5 +7,5 @@ const AppWrapper = ({ classes }) => {
   )
 }
 
-export default withThemeProvider(AppWrapper)
+export default AppWrapper
 

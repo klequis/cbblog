@@ -2,26 +2,75 @@ import React from 'react'
 import injectSheet from 'react-jss'
 import classNames from 'classnames'
 
+/*
+  - className: the name of an existing CSS class,
+  - background: white || blue || darkGrey
+  - noPadding: true || false
+  - ????? variant(string): section (default), header, footer
+*/
+
+const variants = [
+  'footer',
+  'header',
+  'section',
+]
+
+const variantMap = {
+  footer: 'footer',
+  header: 'header',
+  section: 'section',
+}
+
+const getElementForVarient = (variant) => {
+  return variantMap[variant]
+}
+
 const Section = (props) => {
 
-  const { children, classes, className, background='light' } = props
+  const {
+    children,
+    classes,
+    className,
+    background='white',
+    noPadding,
+    header,
+    footer,
+
+  } = props
+
+  // what was pass in?
+  let variant
+  if (header) {
+    variant = 'header'
+  } else if (footer) {
+    variant = 'footer'
+  } else {
+    variant = 'section'
+  }
+
+
   const clsNames = classNames(
     {
-      [classes.dark]: background === 'dark',
+      [classes.bgDarkGrey]: background === 'darkGrey',
+      [classes.bgWhite]: background === 'white',
+      [classes.bgBlue]: background === 'blue',
+      [classes.wrapper]: !noPadding
     },
     [
-      [classes.wrapper],
+
       className,
     ]
 
   )
+  const Component = variant
+  console.log('component', Component)
 
-return (
-    <section className={clsNames}>
+  return (
+    <Component className={clsNames}>
       <div className={classes.inner}>
       {children}
       </div>
-    </section>
+    </Component>
   )
 
 }
@@ -32,12 +81,9 @@ const styles = theme => ({
     maxWidth: 1180,
     margin: 'auto',
   },
-  dark: {
-    // backgroundColor: '#2b3137',
-    backgroundColor: theme.section.colors.background.dark,
-    color: 'white',
-    boxShadow: theme.section.shadow.dark
-  },
+  bgDarkGrey: theme.section.darkGrey,
+  bgWhite: theme.section.white,
+  bgBlue: theme.section.blue
 })
 
 export default injectSheet(styles)(Section)

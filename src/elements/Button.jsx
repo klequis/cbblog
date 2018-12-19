@@ -1,52 +1,45 @@
 import React from 'react'
 import injectSheet from 'react-jss'
 
+import classNames from 'classnames'
 
-const Button = ({ classes, children }) => {
-  return (
-    <div className={classes.wrapper}>
-      <button className={classes.btn}>{children}</button>
-    </div>
+const RippleButtonCSS = ({ children, classes }) => {
+  const clsNames = classNames(
+    classes.button,
+    classes.ripple
   )
+  return (
+    <button className={clsNames}>{children}</button>
+  )
+}
+
+
+const styles = {
+  button: {
+    border: 'none',
+    borderradius: 2,
+    padding: '12px 18px',
+    fontSize: 16,
+    textTransform: 'uppercase',
+    cursor: 'pointer',
+    color: 'white',
+    backgroundColor: '#2196f3',
+    boxShadow: '0 0 4px #999',
+    outline: 'none',
+  },
+  ripple: {
+    backgroundPosition: 'center',
+    transition: 'background 0.8s',
+    '&:hover': {
+      background: '#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%',
+    },
+    '&:active': {
+      backgroundColor: '#6eb9f7',
+      backgroundSize: '100%',
+      transition: 'background 0s',
+    },
+  }
 
 }
 
-const styles = theme => ({
-  wrapper: {
-    padding: 16,
-  },
-  btn: {
-    alignItems: 'center',
-    backgroundColor: '#3f51b5',
-    border: 0,
-    borderRadius: 4,
-    boxShadow: '0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12)',
-    boxSizing: 'border-box',
-    color: '#fff',
-    cursor: 'pointer',
-    display: 'inline-flex',
-    fontWeight: 500,
-    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-    fontSize: '0.875rem',
-    justifyContent: 'center',
-    letterSpacing: 'normal',
-    minHeight: 36,
-    minWidth: 64,
-    outline: 'none',
-    padding: '8px 16px',
-    position: 'relative',
-    textAlign: 'center',
-    textDecoration: 'none',
-    textIndent: 0,
-    textShadow: 'none',
-    userSelect: 'none',
-    verticalAlign: 'middle',
-    // -webkit-appearance: none;
-    // -webkit-tap-highlight-color: transparent;
-    wordSpacing: 'normal',
-
-    transition: 'background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms',
-  }
-})
-
-export default injectSheet(styles)(Button)
+export default injectSheet(styles)(RippleButtonCSS)
